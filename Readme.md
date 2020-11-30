@@ -3,21 +3,17 @@
 
 This project is to recognize named-entities in Chinese language. There are three types of named entities in the dataset, including person, organization and location.
 
-Conditional Random Field.
+
 
 # Model
 
-This model is Iterated IDCNNs (Dilated Convolutional Neural Networks) with a CRF (Conditional Random Field) layer.
+This model is Iterated Dilated Convolutional Neural Networks with a Conditional Random Field layer, which is proposed in the paper [Fast and Accurate Entity Recognition with Iterated Dilated Convolutions](https://arxiv.org/abs/1702.02098). In the paper, the authors proposed a faster alternative to Bi-LSTMs for NER (Named-Entity Recognition): Iterated Dilated Convolutional Neural Networks, which has better capacity than traditional CNNs for large context and structured prediction. It permits fixed-depth convolutions to run in parallel across entire documents. It enables dramatic 14-20x test time speedups while retaining accuracy comparable to the Bi-LSTM-CRF. Moreover, the proposed model trained to aggregate context from the entire document are even more accurate while maintaining 8x faster test time speeds.
 
-IDCNNs was proposed in the paper [Fast and Accurate Entity Recognition with Iterated Dilated Convolutions](https://arxiv.org/abs/1702.02098). 
-
-This paper proposed a faster al- ternative to Bi-LSTMs for NER: Iterated Dilated Convolutional Neural Networks (IDCNNs), which have better capacity than traditional CNNs for large context and structured prediction. It permits fixed-depth convolutions to run in parallel across entire documents. It enables dramatic 14-20x test time speedups while retaining accuracy comparable to the Bi-LSTM-CRF. Moreover, IDCNNs trained to aggregate con- text from the entire document are even more accurate while maintaining 8x faster test time speeds.
-
-The linear chain CRF is used to overcome label-bias problem.
+The linear chain CRF (Conditional Random Field) is used to overcome label-bias problem.
 
 # Dataset
 
-The dataset is from Chinese People's Daily (中国人民日版) with IOB(In-Out-Begin) tagging.
+The dataset is from People's Daily (中国人民日版) with IOB(In-Out-Begin) tagging.
 This dataset includes 27818 lines in total.
 
 For example: 
@@ -53,4 +49,8 @@ For example:
 馆 O <br>
 。 O <br>
 
-# 
+## Requirement
+To set up the enviroment, please use the command:
+**pip install -r requirement.txt**
+
+
