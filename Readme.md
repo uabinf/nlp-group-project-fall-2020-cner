@@ -50,10 +50,10 @@ For example:
 。 O <br>
 
 ## Requirement
-We provided with yml file to help users creating the reliable environment on Linux. The 'environment.yml' file has been tested on the Cheaha server (https://docs.uabgrid.uab.edu/wiki/cheaha). 
-To set up the enviroment, please see the following instructions:
+We provided with yml file to help users creating a reliable environment on Linux. The 'environment.yml' file has been tested on the Cheaha server (https://docs.uabgrid.uab.edu/wiki/cheaha). 
+To set up the environment, please see the following instructions:
 
-1. if you are working on Cheaha, please do not excute the following commands on Login Node!!! You are supposed to request an resource from Cheaha, and 'ssh' to the resource nodes;
+1. if you are working on Cheaha, please do not execute the following commands on Login Node!!! You are supposed to request a resource from Cheaha, and 'ssh' to the resource nodes;
 
 2. commands: 'cd' + 'directory'. (get access to the directory containing the provided 'environment.yml' file);
 
