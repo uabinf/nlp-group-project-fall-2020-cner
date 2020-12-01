@@ -50,8 +50,22 @@ For example:
 。 O <br>
 
 ## Requirement
-To set up the enviroment, please use the command:
+We provided with yml file to help users creating the reliable environment on Linux. The 'environment.yml' file has been tested on the Cheaha server (https://docs.uabgrid.uab.edu/wiki/cheaha). 
+To set up the enviroment, please see the following instructions:
 
-**pip install -r requirement.txt**
+1. if you are working on Cheaha, please do not excute the following commands on Login Node!!! You are supposed to request an resource from Cheaha, and 'ssh' to the resource nodes;
+
+2. commands: 'cd' + 'directory'. (get access to the directory containing the provided 'environment.yml' file);
+
+3. commands: 'conda env create -f environment.yml'. (users will be able to create a new environment which is named 'nlp'. If you would like to change the environment name, you can make a modification on the 'nane=nlp' in the yml file.);
+
+4. please wait for several minutes until the environment is created successfully;
+
+This application has not been tested on Windows system. We are still working on it. The instructions for Windonws users will be published soon.
+
+## On going
+Still working on the Feature Work mentioned in the poster section. One model is under training process. The model will be uploaded very soon.    
+
+
 
 
