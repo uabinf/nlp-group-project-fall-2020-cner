@@ -61,8 +61,8 @@ Sample Instance:
 
 
 # Predicted Results
-The predicted results are stored in the file ```predict_result.txt``` under the floder ```./dataset/```.
-In this file, first column is the chinese characters, second column is the correct tags, and the third column is the predicted tags.
+The predicted results are stored in the file ```predict_result.txt``` under the floder ```./dataset/```. <br>
+In this file, first column is the chinese characters, second column is the correct tags, and the third column is the predicted tags. <br>
 There is an empty line between each sentence.
 
 For example:
@@ -106,7 +106,7 @@ For example:
 The predict results are very good for the entities which contains more than one chinese characters, but not so good for the phrase which only has one character.
 
 # Training Result
-For each training epoch, there would generate a training report, which includes the overall accracy, precision, recall, fscore, and the precision, recall, fscore for each entity type (LOC, PRE, ORG). 
+For each training epoch, there would generate a training report, which includes the overall accracy, precision, recall, fscore, and the precision, recall, fscore for each entity type (LOC, PRE, ORG). <br>
 For example:
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/training_result.png" width="600"/>
 
