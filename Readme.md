@@ -107,7 +107,9 @@ The predict results are very good for the entities which contains more than one 
 
 # Training Result
 For each training epoch, there would generate a training report, which includes the overall accracy, precision, recall, fscore, and the precision, recall, fscore for each entity type (LOC, PRE, ORG). <br>
+
 For example:
+
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/training_result.png" width="600"/>
 
 
