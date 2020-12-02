@@ -65,4 +65,9 @@ Still working on the Feature Work mentioned in the poster section. One model is 
 
 
 
-
+# Paper Reference
+```
+[1] Strubell, Emma, et al. "Fast and accurate entity recognition with iterated dilated convolutions." arXiv preprint arXiv:1702.02098 (2017).
+[2] Yu, Fisher, and Vladlen Koltun. "Multi-scale context aggregation by dilated convolutions." arXiv preprint arXiv:1511.07122 (2015).
+[3] Yoon, Wonjin, et al. "Collabonet: collaboration of deep neural networks for biomedical named entity recognition." BMC bioinformatics 20.10 (2019): 249.
+```
