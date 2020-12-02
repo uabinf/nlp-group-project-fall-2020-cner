@@ -112,6 +112,13 @@ For example:
 
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/training_result.png" width="600"/>
 
+# The created Bi-LSTM Model 
+The figure of model structure
+
+<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bi-lstm%20model.png" width="600"/>
+
+
+
 
 
 # Paper Reference
