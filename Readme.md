@@ -32,6 +32,10 @@ Copy/Paste this command in your local terminal to create Environment:
 ```
 conda env create -f environment.yml
 ```
+Copy/Paste this command in your local terminal to check your environment list, after create environment sucessfully. The environment called "nlp" is the environment for this project.
+```
+conda env list
+```
 
 Submit a job on Cheaha server (https://rc.uab.edu/pun/sys/myjobs). <br>
 You will get a log file `/jupyter-log-pascal-<log_id>.txt`. <br>
