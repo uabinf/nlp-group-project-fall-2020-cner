@@ -60,8 +60,49 @@ Sample Instance:
 ```
 
 
-## On going
-Still working on the Feature Work mentioned in the poster section. One model is under training process. The model will be uploaded very soon.    
+# Predicted Results
+The predicted results are stored in the file ```predict_result.txt``` under the floder ```./dataset/```.
+In this file, first column is the chinese characters, second column is the correct tags, and the third column is the predicted tags.
+There is an empty line between each sentence.
+
+For example:
+```
+辽 B-LOC B-LOC
+宁 I-LOC I-LOC
+南 O O
+部 O O
+温 O O
+泉 O O
+众 O O
+多 O O
+。 O O
+
+大 B-LOC O
+庆 I-LOC O
+这 O O
+一 O O
+步 O O
+， O O
+走 O O
+得 O O
+好 O O
+！ O O
+
+中 B-LOC O
+法 B-LOC O
+文 O O
+化 O O
+研 O O
+讨 O O
+会 O O
+今 O O
+天 O O
+在 O O
+京 B-LOC B-LOC
+举 O O
+行 O O
+。 O O
+```
 
 
 
