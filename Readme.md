@@ -103,6 +103,12 @@ For example:
 行 O O
 。 O O
 ```
+The predict results are very good for the entities which contains more than one chinese characters, but not so good for the phrase which only has one character.
+
+# Training Result
+For each training epoch, there would generate a training report, which includes the overall accracy, precision, recall, fscore, and the precision, recall, fscore for each entity type (LOC, PRE, ORG). 
+For example:
+<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/training_result.png" width="600"/>
 
 
 
