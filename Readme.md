@@ -3,7 +3,7 @@
 
 This project is to recognize named-entities in Chinese language. There are three types of named entities in the dataset, including person, organization and location.
 
-
+![cner_example](https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/cner_example.png)
 
 # Model
 
