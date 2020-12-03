@@ -118,10 +118,10 @@ For each training epoch, there would generate a training report, which includes 
 
 For example:
 
-Training result for ID-CNNs Model:
+Training result for ID-CNNs Model: <br>
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/training_result.png" width="600"/>
 
-Training result for Bi-LSTM Model:
+Training result for Bi-LSTM Model: <br>
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bestF1_Bi_lstm.jpg" width="800"/>
 
 # Comparison 
