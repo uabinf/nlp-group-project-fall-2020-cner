@@ -123,11 +123,12 @@ For example:
 
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bi-lstm%20model.png" width="400"/>
 
-# Model Parameters
+## Model Parameters
 
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/Bi-lstm-hyperp.png" width="400"/>
 
-
+## Training Result
+<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bestF1_Bi_lstm.jpg" width="400"/>
 
 
 # Paper Reference
