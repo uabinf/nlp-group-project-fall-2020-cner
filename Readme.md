@@ -24,6 +24,8 @@ git@github.com:uabinf/nlp-group-project-fall-2020-cner.git
 
 ### Enviroment setup
 These commands are only for the UAB Cheaha server (https://docs.uabgrid.uab.edu/wiki/cheaha). <br>
+Please do not excute the following commands on the Login Node! You are supposed to request an resource from Cheaha, and 'ssh' to the resource nodes!
+
 Copy/Paste this command in your local terminal to load Anaconda module:
 ```
 module load Anaconda3/2020.07
