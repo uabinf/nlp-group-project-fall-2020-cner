@@ -114,6 +114,7 @@ The predict results are very good for the entities which contains more than one 
 # Training Result
 For each training epoch, there would generate a training report, which includes the overall accracy, precision, recall, fscore, and the precision, recall, fscore for each entity type (LOC, PRE, ORG). <br>
 
+F1>0.80: need 4 epochs, 130s.
 For example:
 
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/training_result.png" width="600"/>
@@ -128,6 +129,8 @@ For example:
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/Bi-lstm-hyperp.png" width="400"/>
 
 ## Training Result
+
+F1>0.80: need 101 epochs, 7272s.
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bestF1_Bi_lstm.jpg" width="400"/>
 
 
