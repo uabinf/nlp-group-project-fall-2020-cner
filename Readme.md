@@ -114,7 +114,7 @@ The predict results are very good for the entities which contains more than one 
 # Training Result
 For each training epoch, there would generate a training report, which includes the overall accracy, precision, recall, fscore, and the precision, recall, fscore for each entity type (LOC, PRE, ORG). <br>
 
-**F1>0.80: need 4 epochs (Cheaha,  NVIDIA Tesla P100 16GB), 130s.**
+**F1>0.80: need 4 epochs (Cheaha,  NVIDIA Tesla P100 16GB), 130 seconds.**
 For example:
 
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/training_result.png" width="600"/>
@@ -131,9 +131,12 @@ There are two inputs of the created Bi-LSTM model. The first input layer is desi
 
 ## Training Result
 
-**F1>0.80: need 101 epochs (Cheaha,  NVIDIA Tesla P100 16GB), 7272s.**
+**F1>0.80: need 101 epochs (Cheaha,  NVIDIA Tesla P100 16GB), 7272 seconds.**
 
-<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bestF1_Bi_lstm.jpg" width="800"/>
+<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bestF1_Bi_lstm.jpg.png" width="800"/>
+
+# Conclusions
+Based on the F1 scores obtained by ID-CNNs and Bi-LSTM models, we can tell that these two models work well with Chinese characters. We make a training time comparison between those two models. F1 score: 0.80 is set up as the target. ID-CNNs can achieve the F1 score within 130 seconds. However, Bi-LSTM needs 7272 seconds to achieve the target. 
 
 
 # Paper Reference
