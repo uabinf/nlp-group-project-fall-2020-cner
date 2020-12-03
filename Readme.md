@@ -133,7 +133,7 @@ There are two inputs of the created Bi-LSTM model. The first input layer is desi
 
 **F1>0.80: need 101 epochs (Cheaha,  NVIDIA Tesla P100 16GB), 7272 seconds.**
 
-<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bestF1_Bi_lstm.jpg.png" width="800"/>
+<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bestF1_Bi_lstm.jpg" width="800"/>
 
 # Conclusions
 Based on the F1 scores obtained by ID-CNNs and Bi-LSTM models, we can tell that these two models work well with Chinese characters. We make a training time comparison between those two models. F1 score: 0.80 is set up as the target. ID-CNNs can achieve the F1 score within 130 seconds. However, Bi-LSTM needs 7272 seconds to achieve the target. 
