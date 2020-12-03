@@ -126,13 +126,13 @@ For example:
 
 ## Model Parameters
 
-<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/Bi-lstm-hyperp.png" width="400"/>
+<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/Bi-lstm-hyperp.png" width="600"/>
 
 ## Training Result
 
 F1>0.80: need 101 epochs, 7272s.
 
-<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bestF1_Bi_lstm.jpg" width="600"/>
+<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bestF1_Bi_lstm.jpg" width="800"/>
 
 
 # Paper Reference
