@@ -114,13 +114,14 @@ The predict results are very good for the entities which contains more than one 
 # Training Result
 For each training epoch, there would generate a training report, which includes the overall accracy, precision, recall, fscore, and the precision, recall, fscore for each entity type (LOC, PRE, ORG). <br>
 
-F1>0.80: need 4 epochs (Cheaha,  NVIDIA Tesla P100 16GB), 130s.
+**F1>0.80: need 4 epochs (Cheaha,  NVIDIA Tesla P100 16GB), 130s.**
 For example:
 
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/training_result.png" width="600"/>
 
 # The created Bi-LSTM Model 
 ## Model Structure
+There are two inputs of the created Bi-LSTM model. The first input layer is designed for the encoded Chinese chars. The second input layer is for the encoded Chinese Phrases. This design enables Bi-LSTM model take advantage of the Chinese Phrases features. 
 
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bi-lstm%20model.png" width="400"/>
 
@@ -130,7 +131,7 @@ For example:
 
 ## Training Result
 
-F1>0.80: need 101 epochs (Cheaha,  NVIDIA Tesla P100 16GB), 7272s.
+**F1>0.80: need 101 epochs (Cheaha,  NVIDIA Tesla P100 16GB), 7272s.**
 
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bestF1_Bi_lstm.jpg" width="800"/>
 
