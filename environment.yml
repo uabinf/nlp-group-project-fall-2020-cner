@@ -1,4 +1,4 @@
-name: nlp
+name: project
 channels:
   - pytorch
   - anaconda
