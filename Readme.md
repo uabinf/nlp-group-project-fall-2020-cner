@@ -21,7 +21,7 @@ ID-CNNs(Iterated Dilated Convolutional Neural Networks) Model is a faster altern
 ### Clone CNER
 Copy/Paste this command in your local terminal to clone this project:
 ```
-git@github.com:uabinf/nlp-group-project-fall-2020-cner.git
+git clone https://github.com/uabinf/nlp-group-project-fall-2020-cner.git
 ```
 
 ### Enviroment setup
