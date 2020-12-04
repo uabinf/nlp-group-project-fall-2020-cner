@@ -126,8 +126,8 @@ Training result for Bi-LSTM Model: <br>
 
 # Comparison 
 (Cheaha,  NVIDIA Tesla P100 16GB) <br>
-**F1>0.80: need 4 epochs , 130 seconds.**
-**F1>0.80: need 101 epochs, 7272 seconds.**
+**F1>0.80: need 4 epochs, 130 seconds.** <br>
+**F1>0.80: need 101 epochs, 7272 seconds.** <br>
 
 ## Model Parameters
 
