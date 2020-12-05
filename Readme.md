@@ -20,7 +20,7 @@ ID-CNNs(Iterated Dilated Convolutional Neural Networks) Model is a faster altern
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/id-cnns.png" width="800"/>
 
 # Execution
-
+These commands are only for the UAB Cheaha server (https://docs.uabgrid.uab.edu/wiki/cheaha). <br>
 ### Connect to Cheaha 
 Start your terminal. <br>
 Copy/Paste this command in your local terminal to connect to Cheaha. <br>
@@ -35,8 +35,10 @@ git clone https://github.com/uabinf/nlp-group-project-fall-2020-cner.git
 ```
 
 ### UAB Cheaha Sever
-There are two methods to run jupyter notebook on UAB Cheaha Sever (https://rc.uab.edu/pun/sys/dashboard).
-#### Interactive App
+There are two methods to run jupyter notebook on UAB Cheaha Sever. <br>
+You can choose one of them.<br>
+#### 1. Cheaha Dashboard 
+(https://rc.uab.edu/pun/sys/dashboard)
 ```
 Interactive Apps -> Jupyter Notebook
 ```
@@ -45,18 +47,53 @@ Then you can see the page as below: <br>
 ```
 Set the papameters as shown above -> Launch -> Connect to Jupyter
 ```
-SSH to your applied host: <br>
+Copy/Paste this in your Cheaha terminal to ssh to your applied host: <br>
 ```
 ssh c<host_id>
 ```
 
-## Job Composer
+#### 2. Cheaha Terminal
+Copy/Paste this in your Cheaha terminal to submitted batch job:
+```
+sbatch ./script/cheaha_job.sh
+```
+You will get a log file `jupyter-log-pascal-<job_id>.txt`. <br>
+Here is an exmaple of the log file: <br>
+```
+The following have been reloaded with a version change:
+  1) CUDA/9.2.148.1 => CUDA/10.1.243
 
-Submit a job on Cheaha server (https://rc.uab.edu/pun/sys/myjobs). <br>
-You will get a log file `/jupyter-log-pascal-<log_id>.txt`. <br>
-These commands can be found  in the log file to run jupyter notebook on Cheaha. <br>
 
-Copy/Paste this in your local terminal to ssh tunnel with remote:
+
+   Copy/Paste this in your local terminal to ssh tunnel with remote  
+   ------------------------------------------------------------------
+   ssh -L 8349:172.20.201.103:8349 <blazerid>@cheaha.rc.uab.edu           
+   ------------------------------------------------------------------
+
+
+   Then open a browser on your local machine to the following address
+   ------------------------------------------------------------------
+   localhost:8349                                                
+   ------------------------------------------------------------------
+
+
+/share/apps/rc/software/Anaconda3/5.3.1/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py:19: VisibleDeprecationWarning: zmq.eventloop.minitornado is deprecated in pyzmq 14.0 and will be removed.
+    Install tornado itself to use zmq with the tornado IOLoop.
+    
+  from jupyter_client.session import Session
+[I 14:35:43.631 NotebookApp] [nb_conda_kernels] enabled, 5 kernels found
+[I 14:35:48.993 NotebookApp] JupyterLab extension loaded from /share/apps/rc/software/Anaconda3/5.3.1/lib/python3.7/site-packages/jupyterlab
+[I 14:35:48.993 NotebookApp] JupyterLab application directory is /data/rc/apps/rc/software/Anaconda3/5.3.1/share/jupyter/lab
+[I 14:35:49.088 NotebookApp] [nb_conda] enabled
+[I 14:35:49.088 NotebookApp] Serving notebooks from local directory: /data/user/<blazerid>
+[I 14:35:49.088 NotebookApp] The Jupyter Notebook is running at:
+[I 14:35:49.088 NotebookApp] http://172.20.201.103:8349/?token=fab72652490fb10b50e798716914dba5127ebde6ec4660f2
+[I 14:35:49.089 NotebookApp]  or http://127.0.0.1:8349/?token=fab72652490fb10b50e798716914dba5127ebde6ec4660f2
+[I 14:35:49.089 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:35:49.126 NotebookApp] 
+```
+
+Copy/Paste this in your Cheaha terminal:
 ```
 ssh -L <ip adddress> <your username>@cheaha.rc.uab.edu
 ```
@@ -67,7 +104,6 @@ Copy/Paste this in brower to open jupyter notebook:
 ```
 
 ### Enviroment setup
-These commands are only for the UAB Cheaha server (https://docs.uabgrid.uab.edu/wiki/cheaha). <br>
 Please do not execute the following commands on the Login Node! You are supposed to request a resource from Cheaha, and 'ssh' to the resource nodes!
 
 Copy/Paste this command in your local terminal to load Anaconda module:
@@ -78,11 +114,12 @@ Copy/Paste this command in your local terminal to create Environment:
 ```
 conda env create -f environment.yml
 ```
-Copy/Paste this command in your local terminal to check your environment list, after create environment sucessfully. The environment called "nlp" is the environment for this project.
+Copy/Paste this command in your local terminal to check your environment list, after create environment sucessfully. The environment called ```project``` is the environment for this project.
 ```
 conda env list
 ```
 
+Please use the installed kernal ```project``` to run the project.
 
 # Dataset
 
