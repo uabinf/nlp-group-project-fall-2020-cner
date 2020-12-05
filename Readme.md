@@ -191,8 +191,6 @@ Training result for Bi-LSTM Model: <br>
 
 # Comparison 
 (Cheaha,  NVIDIA Tesla P100 16GB) <br>
-
-<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/comparison.png" width="400"/>
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/comparison_entity.png" width="400"/>
 
 ## Model Parameters
