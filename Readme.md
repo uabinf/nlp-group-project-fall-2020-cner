@@ -7,6 +7,8 @@ This project is to recognize named-entities in Chinese language. There are three
 
 # Models
 
+We implemented this project with two models. One is Bi-LSTM model, and the other is ID-CNNs Model.
+
 Bi-LSTM Model for NER (Named-Entity Recognition):
 
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/bi-lstm.png" width="500"/>
@@ -23,6 +25,30 @@ Copy/Paste this command in your local terminal to clone this project:
 ```
 git clone https://github.com/uabinf/nlp-group-project-fall-2020-cner.git
 ```
+
+# UAB Cheaha Sever
+There are two methods to run jupyter notebook on UAB Cheaha Sever (https://rc.uab.edu/pun/sys/dashboard).
+## Interactive App
+```
+Interactive Apps -> Jupyter Notebook
+```
+Then you can see the page as below: <br>
+<img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/cheaha.png" width="1000"/>
+```
+Set the papameters as shown above -> Launch -> Connect to Jupyter
+```
+Open Cheaha Shell: <br>
+```
+Clusters -> Cheaha Shell Access
+```
+SSH to your local terminal: <br>
+```
+ssh c<host_id>
+```
+Next, you can setup the enviroment fllows the steps in next section.
+
+## Job Composer
+
 
 ### Enviroment setup
 These commands are only for the UAB Cheaha server (https://docs.uabgrid.uab.edu/wiki/cheaha). <br>
