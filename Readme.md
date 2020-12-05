@@ -45,7 +45,16 @@ Interactive Apps -> Jupyter Notebook
 Then you can see the page as below: <br>
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/cheaha.png" width="1000"/>
 ```
-Set the papameters as shown above -> Launch -> Connect to Jupyter
+Set the parameters -> Launch -> Connect to Jupyter
+
+Parameters: 
+module load cuda10.0/toolkit
+module load Anaconda3
+--notebook-dir=/data/user/$USER/nbotw  --gres=gpu:1
+12
+pascalnodes
+8
+16
 ```
 Copy/Paste this in your Cheaha terminal to ssh to your applied host: <br>
 ```
