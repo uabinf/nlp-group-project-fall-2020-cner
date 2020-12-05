@@ -20,15 +20,23 @@ ID-CNNs(Iterated Dilated Convolutional Neural Networks) Model is a faster altern
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/id-cnns.png" width="800"/>
 
 # Execution
+
+### Connect to Cheaha 
+Start your terminal. <br>
+Copy/Paste this command in your local terminal to connect to Cheaha. <br>
+```
+ssh blazerid@cheaha.rc.uab.edu
+```
+
 ### Clone CNER
 Copy/Paste this command in your local terminal to clone this project:
 ```
 git clone https://github.com/uabinf/nlp-group-project-fall-2020-cner.git
 ```
 
-# UAB Cheaha Sever
+### UAB Cheaha Sever
 There are two methods to run jupyter notebook on UAB Cheaha Sever (https://rc.uab.edu/pun/sys/dashboard).
-## Interactive App
+#### Interactive App
 ```
 Interactive Apps -> Jupyter Notebook
 ```
@@ -37,18 +45,26 @@ Then you can see the page as below: <br>
 ```
 Set the papameters as shown above -> Launch -> Connect to Jupyter
 ```
-Open Cheaha Shell: <br>
-```
-Clusters -> Cheaha Shell Access
-```
-SSH to your local terminal: <br>
+SSH to your applied host: <br>
 ```
 ssh c<host_id>
 ```
-Next, you can setup the enviroment fllows the steps in next section.
 
 ## Job Composer
 
+Submit a job on Cheaha server (https://rc.uab.edu/pun/sys/myjobs). <br>
+You will get a log file `/jupyter-log-pascal-<log_id>.txt`. <br>
+These commands can be found  in the log file to run jupyter notebook on Cheaha. <br>
+
+Copy/Paste this in your local terminal to ssh tunnel with remote:
+```
+ssh -L <ip adddress> <your username>@cheaha.rc.uab.edu
+```
+Copy/Paste this in brower to open jupyter notebook:
+```
+[I 16:30:27.170 NotebookApp] The Jupyter Notebook is running at:
+[I 16:30:27.170 NotebookApp] http://<ip address>/?token=<token_id>
+```
 
 ### Enviroment setup
 These commands are only for the UAB Cheaha server (https://docs.uabgrid.uab.edu/wiki/cheaha). <br>
@@ -65,20 +81,6 @@ conda env create -f environment.yml
 Copy/Paste this command in your local terminal to check your environment list, after create environment sucessfully. The environment called "nlp" is the environment for this project.
 ```
 conda env list
-```
-
-Submit a job on Cheaha server (https://rc.uab.edu/pun/sys/myjobs). <br>
-You will get a log file `/jupyter-log-pascal-<log_id>.txt`. <br>
-These commands can be found  in the log file to run jupyter notebook on Cheaha. <br>
-
-Copy/Paste this in your local terminal to ssh tunnel with remote:
-```
-ssh -L <ip adddress> <your username>@cheaha.rc.uab.edu
-```
-Copy/Paste this in brower to open jupyter notebook:
-```
-[I 16:30:27.170 NotebookApp] The Jupyter Notebook is running at:
-[I 16:30:27.170 NotebookApp] http://<ip address>/?token=<token_id>
 ```
 
 
