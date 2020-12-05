@@ -20,7 +20,7 @@ ID-CNNs(Iterated Dilated Convolutional Neural Networks) Model is a faster altern
 <img src="https://github.com/uabinf/nlp-group-project-fall-2020-cner/blob/main/image/id-cnns.png" width="800"/>
 
 # Execution
-
+These commands are only for the UAB Cheaha server (https://docs.uabgrid.uab.edu/wiki/cheaha). <br>
 ### Connect to Cheaha 
 Start your terminal. <br>
 Copy/Paste this command in your local terminal to connect to Cheaha. <br>
@@ -104,7 +104,6 @@ Copy/Paste this in brower to open jupyter notebook:
 ```
 
 ### Enviroment setup
-These commands are only for the UAB Cheaha server (https://docs.uabgrid.uab.edu/wiki/cheaha). <br>
 Please do not execute the following commands on the Login Node! You are supposed to request a resource from Cheaha, and 'ssh' to the resource nodes!
 
 Copy/Paste this command in your local terminal to load Anaconda module:
