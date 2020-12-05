@@ -35,8 +35,9 @@ git clone https://github.com/uabinf/nlp-group-project-fall-2020-cner.git
 ```
 
 ### UAB Cheaha Sever
-There are two methods to run jupyter notebook on UAB Cheaha Sever (https://rc.uab.edu/pun/sys/dashboard).
-#### Interactive App
+There are two methods to run jupyter notebook on UAB Cheaha Sever.
+#### Cheaha Dashboard 
+(https://rc.uab.edu/pun/sys/dashboard)
 ```
 Interactive Apps -> Jupyter Notebook
 ```
@@ -50,7 +51,7 @@ Copy/Paste this in your Cheaha terminal to ssh to your applied host: <br>
 ssh c<host_id>
 ```
 
-#### Job Composer
+#### Cheaha Terminal
 Copy/Paste this in your Cheaha terminal to submitted batch job:
 ```
 sbatch ./script/cheaha_job.sh
