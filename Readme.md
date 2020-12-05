@@ -115,11 +115,12 @@ Copy/Paste this command in your local terminal to create Environment:
 ```
 conda env create -f environment.yml
 ```
-Copy/Paste this command in your local terminal to check your environment list, after create environment sucessfully. The environment called "nlp" is the environment for this project.
+Copy/Paste this command in your local terminal to check your environment list, after create environment sucessfully. The environment called ```project``` is the environment for this project.
 ```
 conda env list
 ```
 
+Please use the installed kernal ```project``` to run the project.
 
 # Dataset
 
